@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="sass/style.css" />
+    <title>Shopy | E- Commerce | Online | Shop</title>
+  </head>
+  <body style="background-color: #f4f6f8">
+    <!--Start Header Section -->
+
+    <header id="header" class="header">
+      <div class="top-header p-4 justify-content-between d-flex container">
+        <div class="top-header-contact d-flex">
+          <div class="header-email mt-auto mb-auto">
+            <i class="far fa-envelope"></i>
+            <span>test@gmail.com</span>
+          </div>
+          <div class="header-phone mt-auto mb-auto">
+            <i class="fas fa-phone-square"></i>
+            <span>12345678</span>
+          </div>
+        </div>
+        <div class="top-header-social-list social">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook active"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="line container-fluid"></div>
+      <nav class="navbar py-5 navbar-expand-md navbar-light bg-white">
+        <div class="container">
+          <img src="img/logo.png" alt="" class="logo navbar-brand" />
+          <button
+            class="navbar-toggler white mt-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="products.html" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Hot Deals</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="product-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 filter-product">
+            <div class="card categories mt-3 p-3">
+              <h4>categories</h4>
+              <div class="categories-list">
+                <ul>
+                  <li>Man</li>
+                  <li>Women</li>
+                  <li>Childrens</li>
+                  <li>Hot Deal</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card categories mt-3 p-3">
+              <h4>Sizes</h4>
+              <div class="sizes-list">
+                <form class="form-check">
+                  <div class="small">
+                    <input type="radio" class="form-check-input" id="smalls" />
+                    <label for="smalls">Smalls</label>
+                  </div>
+                  <div class="medium">
+                    <input type="radio" class="form-check-input" id="Medium" />
+                    <label for="Medium">Medium</label>
+                  </div>
+                  <div class="large">
+                    <input type="radio" class="form-check-input" id="Large" />
+                    <label for="Large">Large</label>
+                  </div>
+                  <div class="x-large">
+                    <input type="radio" class="form-check-input" id="X-Large" />
+                    <label for="X-Large">X-Large</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="card categories mt-3 p-3">
+              <h4>Brands</h4>
+              <div class="brands-list">
+                <form class="form-check">
+                  <div class="small">
+                    <input type="radio" class="form-check-input" id="Reebok" />
+                    <label for="Reebok">Reebok</label>
+                  </div>
+                  <div class="medium">
+                    <input type="radio" class="form-check-input" id="Addidas" />
+                    <label for="Addidas">Addidas</label>
+                  </div>
+                  <div class="large">
+                    <input type="radio" class="form-check-input" id="Nike" />
+                    <label for="Nike">Nike</label>
+                  </div>
+                  <div class="x-large">
+                    <input type="radio" class="form-check-input" id="Active" />
+                    <label for="Active">X-Large</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 products">
+            <div class="row justify-content-center align-items-center">
+              <div class="card col-lg-3 col-md-6 m-2 p-3">
+                <div class="item">
+                  <img src="img/Products-1.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-3 p-3">
+                <div class="item">
+                  <img src="img/Products-2.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-2 p-3">
+                <div class="item">
+                  <img src="img/Products-1.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-3 p-3">
+                <div class="item">
+                  <img src="img/Products-3.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-3 p-3">
+                <div class="item">
+                  <img src="img/Products-2.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-3 p-3">
+                <div class="item">
+                  <img src="img/Products-1.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-2 p-3">
+                <div class="item">
+                  <img
+                    src="img/Products-1.png"
+                    alt="img1"
+                    class="img-fluid ms-5"
+                  />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-3 p-3">
+                <div class="item">
+                  <img src="img/Products-2.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-2 p-3">
+                <div class="item">
+                  <img src="img/Products-1.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-3 p-3">
+                <div class="item">
+                  <img src="img/Products-3.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 m-3 p-3">
+                <div class="item">
+                  <img src="img/Products-2.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6  m-  p- ">
+                <div class="item">
+                  <img src="img/Products-1.png" alt="img1" class="img-fluid" />
+                  <h4>Stylish Snackers</h4>
+                  <span class="price">200$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </section>
+
+
+    <div class="join-us d-flex justify-content-around bg-white my-3 py-4 container">
+        <h3>NEWS LETTER</h3>
+        <p>join us now to get all news and special offers</p>
+        <div class="contact">  <i class="far fa-envelope"></i>
+        <span>type your email here</span>
+        </div>
+        <button class="btn">join us</button>
+      </div>
+
+    <footer class="footer bg-white py-5 ">
+      <div class="container justify-content-center d-flex text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-3 mt-3">
+            <img src="img/logo.png" alt="" />
+            <p>shopy &copy; 2015 . your copy right here</p>
+          </div>
+          <div class="col-md-2 justify-content-center algin-item-center mt-3"">
+            <ul>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Support</li>
+            </ul>
+          </div>
+          <div class="col-md-2 mt-3"">
+            <ul>
+              <li>Our Feed</li>
+              <li>Terms & Conditions</li>
+              <li>Our Privacy</li>
+            </ul>
+          </div>
+          <div class="col-md-2 mt-3"">
+            <ul>
+              <li>Join Us</li>
+              <li>Live Support</li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-3"">
+            <h4>Payment Method</h4>
+            <img src="img/pay.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
